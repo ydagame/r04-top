@@ -1,0 +1,380 @@
+@font-face
+{
+  font-family: 'TrainOne';
+  src: url(../font/TrainOne-Regular.ttf);
+}
+
+@font-face
+{
+  font-family: 'Kaisotai-Next-UP-B';
+  src: url(../font/Kaisotai-Next-UP-B.ttf);
+}
+
+body
+{
+  background: white;
+  margin: 0;
+  padding: 0;
+}
+
+div.loading-wrapper
+{
+  position: fixed;
+  inset: 0;
+  background: #212121;
+  z-index: 100;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  color: white;
+}
+div.loading-wrapper > div.loading-text
+{
+  margin-bottom: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Consolas', Arial;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+h1.early-access-text
+{
+  text-align: center;
+  position: fixed;
+  margin: 0 auto;
+  background: rgba(0, 0, 0, 0.5);
+  top: 20px;
+  left: 20px;
+  border-radius: 6px;
+  padding: 0 20px;
+  color: white;
+  z-index: 5;
+}
+
+header.photo-slide
+{
+  font-size: 100px;
+  line-height: 100px;
+
+  height: calc(var(--vh) - 100px);
+  min-height: 720px;
+  margin-bottom: 100px;
+  text-align: center;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position: center center !important;
+
+  position: absolute;
+
+  transition-duration: 1.0s;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+
+  z-index: 0;
+  position: relative;
+}
+header.photo-slide .title
+{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
+header.photo-slide .title span
+{
+  text-shadow: 4px 4px 6px #212121, -4px -4px 6px #212121,
+              -4px 4px 6px #212121,  4px -4px 6px #212121,
+               6px 4px 6px #212121,  6px -4px 6px #212121,
+              -4px 6px 6px #212121,  4px  6px 6px #212121;
+
+  font-family: 'TrainOne';
+}
+header.photo-slide::before
+{
+  content: '';
+  font-size: 64px;
+  width: 100%;
+  height: calc(var(--vh) - 100px);
+  min-height: 720px;
+  
+  filter: grayscale(80%);
+  -webkit-filter: grayscale(80%);
+  background: inherit;
+  position: absolute;
+
+  z-index: -1;
+  transition-duration: 1.0s;
+}
+header.photo-slide.disable-trans,
+header.photo-slide.disable-trans::before
+{
+  transition-duration: 0s;
+}
+
+div.scroll-anim
+{
+  width: 256px;
+  height: 200px;
+  margin: 0 auto;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+  background: #212121;
+  border-radius: 128px 128px 0 0;
+
+  position: absolute;
+  inset: 0;
+  top: calc(var(--vh) - 256px);
+}
+.scroll-anim:hover
+{
+  cursor: pointer;
+}
+
+.header-column
+{
+  width: 100%;
+  height: 100px;
+  background: #212121;
+  border-bottom: solid 8px var(--header-column-color);
+  /* border-bottom: solid 8px gray; */
+
+  position: absolute;
+  inset: 0;
+  top: calc(var(--vh) - 100px);
+  z-index: -1;
+}
+@media screen and (max-height: 820px)
+{
+  div.scroll-anim,
+  .header-column
+  {
+    display: none;
+  }
+}
+
+i.move-to-top
+{
+  visibility: collapse;
+
+  font-size: 20px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  width: 32px;
+  height: 32px;
+  border: solid 3px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  transition-duration: 0.3s;
+  opacity: 0;
+  z-index: 3;
+}
+i.move-to-top:hover
+{
+  transform: scale(1.05);
+}
+
+footer
+{
+  margin: 100px auto 0;
+  width: 100%;
+  height: 80px;
+  color: #bdbdbd;
+  font-weight: bold;
+  font-size: 18px;
+  background: #484848;
+  background: #212121;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  font-family: Arial, Helvetica, sans-serif;
+}
+footer .copy-name
+{
+  height: inherit;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+footer .copy-name i
+{
+  font-size: calc(18px - 2.5px);
+}
+
+footer .other-link
+{
+  height: 30px;
+  position: absolute;
+  right: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+
+  border-left: solid 2px #8d8d8d;
+  padding-left: 40px;
+
+  margin: 0;
+}
+footer .other-link p
+{
+  margin: 0;
+}
+footer .other-link i
+{
+  color: #8d8d8d;
+}
+footer .other-link p a
+{
+  margin: 0 0 0 10px;
+  text-decoration: none;
+  color: #8d8d8d;
+}
+footer .other-link p a:hover
+{
+  text-decoration: underline;
+}
+
+div.this-access
+{
+  width: fit-content;
+  background: rgba(0,0,0,0.7);
+  position: fixed;
+  top: 100px;
+  left: 20px;
+  color: white;
+  font-size: 18px;
+  background: rgba(0,0,0,0.7);
+  padding: 6px 20px;
+  border-radius: 10px;
+  z-index: 2;
+}
+
+::-webkit-scrollbar
+{
+  width: 12px;
+  height: 12px;
+}
+::-webkit-scrollbar-track
+{
+  background: #F0F0F0;
+  background: var(--scrollbar-back);
+}
+::-webkit-scrollbar-thumb
+{
+  background: #1faa00;
+  background: var(--scrollbar-thumb);
+}
+
+@media screen and (max-width: 480px)
+{
+  h1.early-access-text
+  {
+    font-size: 4vw;
+  }
+
+  header.photo-slide
+  {
+    height: calc(var(--vh) - 200px);
+    min-height: calc(var(--vh) - 200px);
+    
+    font-size: 17vw !important;
+    line-height: 17vw !important;
+    
+    padding: 0;
+    margin-bottom: 220px;
+
+    line-height: 24vw;
+  }
+  header.photo-slide .title
+  {
+    margin: 0 auto;
+  }
+  header.photo-slide .title:first-child
+  {
+    padding-top: 4vh;
+  }
+  .header-column
+  {
+    display: flex;
+    height: 200px;
+
+    position: absolute;
+    inset: 0;
+    top: calc(var(--vh) - 200px);
+    z-index: -1;
+  }
+
+  div.scroll-anim
+  {
+    display: flex;
+    width: 40vw;
+    height: 170px;
+    border-radius: 20vw 20vw 0 0;
+    transform: scale(0.9) !important;
+    top: calc(var(--vh) - 220px);
+  }
+
+  i.move-to-top
+  {
+    display: none;
+  }
+
+  footer
+  {
+    margin: 0;
+    margin-top: 10vw;
+    flex-direction: column-reverse;
+    height: fit-content;
+    padding: 8vw 0;
+    font-size: 4vw;
+  }
+  footer .copy-name i
+  {
+    font-size: 3.5vw;
+  }
+  footer .other-link
+  {
+    position: relative;
+    inset: 0;
+    margin: 0 auto 6vw;
+    padding: 0;
+    padding-bottom: 6vw;
+    border: none;
+    border-bottom: solid 0.5vw #8d8d8d;
+
+    height: fit-content;
+  }
+  footer .other-link p a:hover
+  {
+    text-decoration: none;
+  }
+
+  h1.grade
+  {
+    font-size: 6vw;
+    padding: 10px 50px;
+    border-width: 1vw;
+  }
+}

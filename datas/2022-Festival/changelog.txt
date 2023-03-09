@@ -1,0 +1,40 @@
+setdata^1^Arcadeチーム^アーケードガンシューティング^https://ydagame.shopipi.app/t/Arcadeチーム/^1-62cf8d6420c7a.png^false^false^false^true^false^false
+setdata^2^ColorSnake^ColorSnake^https://r02gm2100123.wixsite.com/color-snake-team^2-62c7892f8a1b0.png^true^false^false^false^false^false
+setdata^3^mobileチーム^Gyro Zombie^https://r02gm2100003.wixsite.com/physicsball^3-62ce110f34ac7.png^false^true^false^false^false^false
+setdata^4^Tower Defense^Tower Defense制作^https://r02gm2100118.wixsite.com/website-1^4-62ccdf9222c4b.png^false^true^false^false^false^false
+setdata^5^3ptチーム^ Billiards^https://r02gm2100211.wixsite.com/bili^5-62cda4686c633.png^true^true^false^false^false^false
+setdata^6^YSチーム^Solar_Gladiators_2D^https://r02gm2100226.wixsite.com/ysteam^6-62cbc0ebe0d83.png^true^false^false^false^false^false
+setdata^7^Fighterチーム^Fighter.UE5^https://r02gm2100081.wixsite.com/fighter^7-62cd58dea9c19.png^true^false^false^false^false^false
+setdata^8^Freeチーム^Freeのおもちゃ箱^https://r02gm2100267.wixsite.com/freeteam^8-62c784996b948.jpg^true^false^false^false^false^false
+setdata^9^ITチーム^PoPTyping^https://r02gm2100133.wixsite.com/poptyping^9-62cbc1a2b2218.png^true^false^false^false^false^true
+setdata^10^クロノスクルド^クロノスクルド^https://kuromaru.net/ChronoSculd/home.html^10-62cf66f77d00e.jpg^true^false^false^false^false^false
+setdata^11^チャットbotゼミ^チャットbot^https://r02gm2100086.wixsite.com/chatbot^11-62cbaf45bf0e9.jpg^false^false^false^false^false^true
+setdata^12^わくわく∞チーム^わくわく文房具レース^https://sites.google.com/da.iwasaki.ac.jp/wkwkinf/わくわく文房具レース^12-62c7ddfb160de.png^true^false^false^false^false^false
+setdata^13^3Dアクション製作チーム^PLANET ESCAPE^https://sites.google.com/da.iwasaki.ac.jp/3dgame/ホーム?authuser=1^13-62ccbe3485814.png^true^false^false^false^false^false
+setdata^14^DirectX12 2D Action^DirectX12 2D Action^https://sites.google.com/da.iwasaki.ac.jp/directx12-2d-action/^14-62cbc7559a1a8.png^true^false^false^false^false^false
+setdata^15^佐々木さん^呪いの廃校^https://sites.google.com/da.iwasaki.ac.jp/sasakisan/ホーム^15-62cba7e97baba.png^true^false^false^false^false^false
+setdata^16^名も無きチーム^Fox Action^https://sites.google.com/da.iwasaki.ac.jp/namonaki^16-62c6204505f7c.png^true^false^false^false^false^false
+setdata^17^シナリオゲーム制作チーム^ANEMONE^https://sites.google.com/da.iwasaki.ac.jp/sinario/ホーム^17-62cbc28ee10c6.png^true^false^false^false^false^false
+setdata^18^チームメロリボ^メロディリボン^https://sites.google.com/da.iwasaki.ac.jp/melribo/ホーム^18-62ce668a8d1a1.jpg^false^true^false^false^false^false
+setdata^19^GHQ^PLANETS^https://sites.google.com/da.iwasaki.ac.jp/ghq/ホーム^19-62c3d7e0dfb9a.png^true^false^false^false^false^false
+setdata^20^Template3^ROLLING BALLS^https://sites.google.com/da.iwasaki.ac.jp/202211-1234/ホームだよ^20-62c5475a215cf.png^true^false^false^false^false^false
+setdata^21^チームSmile_waya^Smile_Party^https://sites.google.com/da.iwasaki.ac.jp/team-smile-waya/Projects/Diary/July-MyProjects^21-62cb9b679c5b5.png^true^true^false^false^false^false
+setdata^22^株式会社杉本（沼）^null^https://sites.google.com/da.iwasaki.ac.jp/team-smile-waya/Projects/Diary/July-MyProjects^22-62cbc240972f7.jpg^true^false^false^false^false^true
+setdata^23^Unreal 3D制作チーム(仮）^HIDE&amp;SEEK制作プロジェクト^https://sites.google.com/da.iwasaki.ac.jp/unreal-3d/ホーム^23-62cb83077067e.png^true^false^false^false^false^false
+setdata^24^e-sportsチーム^e-sports^https://r02gm2100228.wixsite.com/website^24-62c50f2231422.png^false^false^false^false^true^false
+setdata^25^悪魔ゲームクリエイターラボ^アクションゲーマーX^^example.png^false^false^false^false^false^false
+[2022/10/21 - 19:24:07]: setdata^1^Arcadeチーム^YDA CRISIS^https://ydagame.shopipi.app/t/Arcadeチーム/^1-62cf8d6420c7a.png^false^false^false^true^false^false
+[2022/10/26 - 13:08:33]: setdata^25^悪魔ゲームクリエイターラボ^アクションゲーマーX^https://sites.google.com/d/1LLhR2KOOIVUlz-WBsfZXYbVWYfGdzaDq/p/1KTKwHiFy-S6O1LHmYP9PEb0AmOqFgt_9/edit^example.png^false^false^false^false^false^false
+[2022/10/26 - 13:16:17]: setdata^25^悪魔ゲームクリエイターラボ^アクションゲーマーX^https://sites.google.com/d/1LLhR2KOOIVUlz-WBsfZXYbVWYfGdzaDq/p/1KTKwHiFy-S6O1LHmYP9PEb0AmOqFgt_9/edit^example.png^true^false^false^false^false^false
+[2022/10/26 - 13:43:15]: setdata^19^GHQ^PLANETS2^https://sites.google.com/da.iwasaki.ac.jp/ghq/ホーム^19-6358bae31c1e6.png^true^false^false^false^false^false
+[2022/10/26 - 13:52:58]: setdata^19^GHQ^PLANETS2^https://sites.google.com/da.iwasaki.ac.jp/ghq/ホーム^19-6358bae31c1e6.png^true^false^false^false^false^false
+[2022/10/26 - 13:55:23]: setdata^25^悪魔ゲームクリエイターラボ^アクションゲーマーX^https://sites.google.com/d/1LLhR2KOOIVUlz-WBsfZXYbVWYfGdzaDq/p/1KTKwHiFy-S6O1LHmYP9PEb0AmOqFgt_9/edit^example.png^true^false^false^false^false^false
+[2022/10/26 - 14:08:42]: setdata^19^GHQ^PLANETS2^https://sites.google.com/da.iwasaki.ac.jp/ghq/planets^19-6358bae31c1e6.png^true^false^false^false^false^false
+[2022/10/26 - 14:12:57]: setdata^19^GHQ^PLANETS2^https://sites.google.com/da.iwasaki.ac.jp/ghq/planets2^19-6358bae31c1e6.png^true^false^false^false^false^false
+[2022/10/26 - 14:36:23]: setdata^22^株式会社杉本（沼）^Aim Training^https://sites.google.com/da.iwasaki.ac.jp/sugimoto-corp/ほーむ^22-62cbc240972f7.jpg^true^false^false^false^false^false
+[2022/10/26 - 14:47:32]: setdata^22^株式会社杉本（沼）^Aim Training^https://sites.google.com/d/1MvxVYjVQqj8g9bs-OV8Qmp9ruLzXRPx6/p/1tPvAc8FrtgdD5Z7KXoA2ea4c95xRADoc/edit^22-62cbc240972f7.jpg^true^false^false^false^false^false
+[2022/10/26 - 14:50:34]: setdata^22^株式会社杉本（沼）^Aim Training^https://sites.google.com/d/1MvxVYjVQqj8g9bs-OV8Qmp9ruLzXRPx6/p/1tPvAc8FrtgdD5Z7KXoA2ea4c95xRADoc/edit^22-6358caaa3e991.png^true^false^false^false^false^false
+[2022/10/26 - 14:54:58]: setdata^25^悪魔ゲームクリエイターラボ^アクションゲーマーX^https://sites.google.com/da.iwasaki.ac.jp/actionx/ホーム^25-6358cbb27c398.jpg^true^false^false^false^false^false
+[2022/10/26 - 15:16:42]: setdata^22^株式会社杉本（沼）^Aim Training^https://sites.google.com/da.iwasaki.ac.jp/sugimoto-corp/ほーむ/作品名aimtraining^22-6358caaa3e991.png^true^false^false^false^false^false
+[2022/10/28 - 01:41:21]: setdata^17^シナリオゲーム制作チーム^ANEMONE^https://sites.google.com/da.iwasaki.ac.jp/sinario/制作ゲーム紹介^17-62cbc28ee10c6.png^true^false^false^false^false^false
+[2022/10/28 - 10:27:17]: setdata^21^チームSmile_waya^マンション鬼ごっこ^https://sites.google.com/da.iwasaki.ac.jp/team-smile-waya/Projects/Diary/July-MyProjects^21-635b2ff514014.jpg^true^false^false^false^false^false

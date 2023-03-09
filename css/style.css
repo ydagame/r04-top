@@ -1,0 +1,230 @@
+*
+{
+  font-family: Arial, Helvetica, sans-serif;
+}
+body
+{
+  background: #f4f5f7;
+  margin: 0;
+  padding: 0;
+}
+
+.p-wrapper
+{
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+
+  width: fit-content;
+  margin: 0 auto;
+  
+  background: transparent;
+}
+.wrapper
+{
+  width: 500px;
+  height: 95%;
+  margin: 0 20px;
+  /* border: solid 2px black; */
+  padding: 20px;
+}
+.wrapper .title
+{
+  border-bottom: 2px solid #6e6e6e;
+  margin-bottom: 20px;
+}
+.wrapper .editor
+{
+  display: flex;
+  flex-direction: column;
+
+  margin: 0 auto;
+}
+.wrapper .editor input[type="text"]
+{
+  height: 40px;
+  font-size: 16px;
+  border: solid 1px black;
+}
+.wrapper .editor label:not(:first-child)
+{
+  margin-top: 20px;
+}
+h3
+{
+  font-size: 32px;
+}
+h4
+{
+  font-size: 20px;
+}
+h4 a
+{
+  color: black;
+}
+h4 a:hover
+{
+  color: #0f9d58;
+}
+
+form div.platforms
+{
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  background: white;
+  border: solid 1px black;
+}
+
+form select#id
+{
+  font-size: 52px;
+  border: none;
+  outline: none;
+}
+@media screen and (min-width: 481px)
+{
+  form select#id
+  {
+    border-bottom: 2px solid black;
+    background: transparent;
+  }
+}
+form option
+{
+  font-size: 16px;
+  font-family: 'Consolas';
+}
+form input#id
+{
+  width: 80px;
+  height: 80px;
+  font-size: 52px;
+
+  border: none;
+  border-bottom: 2px solid black;
+  border-radius: 0;
+  outline: none;
+
+  background: transparent;
+  text-align: right;
+}
+form input#id::placeholder
+{
+  color: #d4d4d4;
+}
+form input#banner_img:hover
+{
+  cursor: pointer;
+}
+form select#contents_type
+{
+  height: 32px;
+}
+form input.submit
+{
+  width: 60px;
+  height: 40px;
+  margin: 10px auto;
+
+  background: dodgerblue;
+  border: none;
+  outline: none;
+
+  color: white;
+  font-weight: bold;
+
+  border-bottom: #0065ca solid 4px;
+}
+form input.submit:hover
+{
+  margin-top: 10px;
+  border-bottom: #0065ca solid 2px;
+  cursor: pointer;
+}
+form input.submit:disabled
+{
+  background: darkgray;
+  border-bottom: gray solid 4px;
+}
+form .error
+{
+  color: red;
+  font-weight: bold;
+  text-align: right;
+}
+
+.complete
+{
+  width: fit-content;
+  height: fit-content;
+  margin: 200px auto 50px auto;
+  text-align: center;
+}
+.complete h1
+{
+  font-size: 32px;
+  color: #3f3f3f;
+}
+.complete h2
+{
+  color: #e20000;
+}
+.complete i
+{
+  font-size: 128px;
+}
+
+.back-btn-wrapper
+{
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.back-btn
+{
+  margin: 0 auto 20px auto;
+  padding: 2px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  width: 140px;
+  color: gray;
+}
+.back-btn:hover
+{
+  cursor: pointer;
+}
+
+p.path_info
+{
+  position: absolute;
+  left: 20px;
+  bottom: 10px;
+
+  font-size: 16px;
+  font-weight: bold;
+  color: gray;
+
+  z-index: 10;
+}
+p.path_info i
+{
+  font-size: 24px;
+  transform: translate(-2px, 5.5px);
+}
+p.path_info a
+{
+  color: gray;
+}
+p.path_info a:hover
+{
+  color: #3f3f3f;
+}
+
+@media screen and (max-width: 480px)
+{
+  .wrapper
+  {
+    width: 80vw;
+  }  
+}

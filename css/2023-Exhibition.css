@@ -1,0 +1,601 @@
+*
+{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  /* border: dashed 1px black !important; */
+}
+
+:root
+{
+  --rooms-view-width: 1312px;
+  --rooms-view-height: 450px;
+  --rooms-view-caption-background: #1a1a1a;
+  --rooms-view-text-padding: 32px;
+  --rooms-view-tile-count: 4;
+
+  --rooms-view-width2: 512px;
+
+  --game-class-color: #FF0066;
+}
+
+body
+{
+  margin: 0;
+  padding: 0;
+
+  overflow-x: hidden !important;
+}
+
+a
+{
+  outline: none !important;
+}
+
+div.body-wrapper
+{
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+header
+{
+  position: relative;
+  
+  width: 100%;
+  height: var(--vh);
+
+  display: flex;
+  flex-direction: row;
+}
+header > div.yda-logo
+{
+  position: absolute;
+
+  width: fit-content;
+  height: fit-content;
+
+  padding: 16px 24px;
+
+  background: var(--rooms-view-caption-background);
+}
+header > div.yda-logo > div.img
+{
+  width: 297px;
+  height: 35px;
+  background: url(../yda_logo.png) no-repeat;
+}
+@media (max-width: 480px)
+{
+  header > div.yda-logo
+  {
+    padding: 2vw 3vw 0 3vw;
+  }
+  header > div.yda-logo > div.img
+  {
+    width: 45vw;
+    background-size: contain;
+  }
+}
+header > div.background
+{
+  width: 100%;
+  height: calc(var(--vh) - var(--rooms-view-height) * 0.25);
+  
+  background-size: cover !important;
+  background-position: center center !important;
+  background: url(../datas/2023-Exhibition/Photos/2-5F.jpg);
+
+  display: flex;
+  align-items: center;
+}
+header > div.background > div.header-caption
+{
+  position: absolute;
+  right: 0;
+  left: 10%;
+  
+  width: var(--rooms-view-width);
+}
+header > div.background > div.header-caption > p
+{
+  margin: 0;
+  padding: 0;
+  
+  width: fit-content;
+  
+  color: white;
+  font-size: 64px;
+  font-weight: bold;
+
+  /* background: rgba(26, 26, 26, 0.6); */
+  text-shadow: 4px 4px 6px #212121, -4px -4px 6px #212121,
+              -4px 4px 6px #212121,  4px -4px 6px #212121,
+               6px 4px 6px #212121,  6px -4px 6px #212121,
+              -4px 6px 6px #212121,  4px  6px 6px #212121;
+}
+@media (max-width: 750px)
+{
+  header > div.background > div.header-caption
+  {
+    position: relative;
+    inset: 0;
+
+    margin: 0 auto;
+
+    width: 90%;
+  }
+  header > div.background > div.header-caption > p
+  {
+    font-size: 12vw;
+    line-height: 12vw;
+    transform: scaleY(1.25);
+  }
+}
+header > div.rooms-view-wrapper
+{
+  position: absolute;
+  top: calc(var(--vh) - var(--rooms-view-height) * 0.5);
+  right: 0;
+
+  width: var(--rooms-view-width);
+  height: var(--rooms-view-height);
+
+  display: flex;
+  flex-direction: column;
+}
+@media (max-width: 1500px)
+{
+  header > div.rooms-view-wrapper
+  {
+    width: 100%;
+  }
+}
+@media (min-width: 1921px)
+{
+  header > div.rooms-view-wrapper,
+  header > div.background > div.header-caption
+  {
+    right: calc(calc(100% - var(--rooms-view-width)) / 2);
+    left: auto;
+  }
+  header > div.rooms-view-wrapper > a.view-floormap
+  {
+    margin: 6px 0 0 0 !important;
+  }
+}
+header > div.rooms-view-wrapper > div.caption
+{
+  position: relative;
+
+  width: calc(var(--rooms-view-width) / var(--rooms-view-tile-count) - var(--rooms-view-text-padding) * 2);
+  height: fit-content;
+  
+  padding: 10px var(--rooms-view-text-padding);
+  
+  font-size: 16px;
+  color: white;
+
+  background: var(--rooms-view-caption-background);
+
+  font-weight: bold;
+
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.4);
+}
+@media (max-width: 1500px)
+{
+  header > div.rooms-view-wrapper > div.caption
+  {
+    width: calc(100% / var(--rooms-view-tile-count) - var(--rooms-view-text-padding) * 2);
+  }
+}
+@media (max-width: 800px)
+{
+  header > div.rooms-view-wrapper > div.caption
+  {
+    width: calc(100% - var(--rooms-view-text-padding) * 2);
+  }
+}
+header > div.rooms-view-wrapper > div.tiles
+{
+  position: relative;
+  
+  display: grid;
+  grid-template-columns: repeat(var(--rooms-view-tile-count), 1fr);
+
+  width: 100%;
+  height: 100%;
+
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.4);
+}
+@media (max-width: 800px)
+{
+  header > div.rooms-view-wrapper > div.tiles
+  {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+header > div.rooms-view-wrapper > div.tiles > div.tile
+{
+  position: relative;
+  
+  width: 100%;
+  height: 100%;
+
+  background-size: cover !important;
+  background-position: center center !important;
+}
+header > div.rooms-view-wrapper > div.tiles > div.tile::before
+{
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+  outline: solid 2px rgba(0,0,0,0.6);
+  outline-offset: -2px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.4);
+}
+header > div.rooms-view-wrapper > div.tiles > div.tile:not(.no-link):hover::before
+{
+  cursor: pointer;
+  outline: solid 8px rgba(255,255,255,0.4);
+  outline-offset: -8px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.4);
+
+  z-index: 1;
+}
+header > div.rooms-view-wrapper > div.tiles > div.tile:not(.no-link) > i
+{
+  position: absolute;
+  bottom: var(--rooms-view-text-padding);
+  
+  width: 100%;
+
+  color: white;
+  opacity: 0;
+  font-size: 48px;
+  text-align: center;
+}
+header > div.rooms-view-wrapper > div.tiles > div.tile:not(.no-link):hover > i
+{
+  opacity: 0.75;
+}
+@media (max-width: 480px)
+{
+  header > div.rooms-view-wrapper > div.tiles > div.tile:not(.no-link):hover::before
+  {
+    outline: none;
+    box-shadow: none;
+  }
+  header > div.rooms-view-wrapper > div.tiles > div.tile:not(.no-link) > i
+  {
+    opacity: 0.75;
+    bottom: 1vw;
+    font-size: 6vw;
+  }
+  header > div.rooms-view-wrapper > div.tiles > div.tile:not(.no-link):hover > i
+  {
+    opacity: 0.75;
+  }
+}
+header > div.rooms-view-wrapper > div.tiles > div.tile > div.room-using
+{
+  padding: var(--rooms-view-text-padding) 0 0 var(--rooms-view-text-padding);
+
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+header > div.rooms-view-wrapper > div.tiles > div.tile > div.room-name
+{
+  padding-left: var(--rooms-view-text-padding);
+  color: white;
+  font-size: 16px;
+}
+header > div.rooms-view-wrapper > a.view-floormap
+{
+  margin: 6px 16px 0 0;
+  
+  position: absolute;
+  top: var(--rooms-view-height);
+  right: 0;
+  z-index: 1;
+  
+  text-align: right;
+  font-size: 16px;
+  color: gray;
+
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+div.main-body
+{
+  position: relative;
+  
+  width: 90%;
+  max-width: var(--rooms-view-width);
+  
+  margin: calc(var(--rooms-view-height) * 0.5) auto 0 auto;
+  padding-top: 64px;
+  padding-bottom: 128px;
+}
+div.main-body > div.caption
+{
+  margin: 128px auto 0;
+  height: fit-content;
+
+  width: fit-content;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+div.main-body > div.caption > div.info
+{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+div.main-body > div.caption > div.info > h1
+{
+  margin: 0;
+  padding: 0;
+  
+  margin-right: calc(var(--rooms-view-text-padding) / 2);
+  font-size: 48px;
+  line-height: 80px;
+}
+div.main-body > div.caption > div.info > p
+{
+  font-size: 18px;
+}
+div.main-body > div.caption > div.sub-caption
+{
+  padding: 14px 20px;
+  
+  font-size: 18px;
+  font-weight: bold;
+
+  display: flex;
+  flex-direction: column;
+
+  border: solid 2px rgba(0,0,0,0.6);
+  border-radius: 6px;
+}
+div.main-body > div.caption > div.sub-caption a
+{
+  color: red;
+}
+@media (max-width: 480px)
+{
+  div.main-body > div.caption:first-child
+  {
+    margin: 0 auto;
+  }
+  div.main-body > div.caption > div.info > h1
+  {
+    font-size: 8vw;
+    line-height: 14.5vw;
+  }
+  div.main-body > div.caption > div.info > p
+  {
+    font-size: 3.5vw;
+  }
+  div.main-body > div.caption > div.sub-caption
+  {
+    font-size: 3vw;
+  }
+}
+div.main-body > div.banners-container
+{
+  width: 100%;
+  
+  margin-top: 32px;
+  
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(auto-fill, 296px);
+  grid-gap: 64px 32px;
+}
+@media (max-width: 480px)
+{ 
+  div.main-body > div.banners-container
+  {
+    grid-template-columns: repeat(1, 80%);
+  }
+}
+a.banner-wrapper
+{
+  text-decoration: none;
+}
+a.banner-wrapper > div.banner-img
+{
+  width: 100%;
+  aspect-ratio: 4 / 3;
+
+  background-size: cover !important;
+  background-position: center center !important;
+
+  border-radius: 20px;
+}
+a.banner-wrapper:hover > div.banner-img
+{
+  /* box-shadow: 0px 0px 10px rgba(0,0,0,0.4); */
+  outline: solid 8px rgba(255,255,255,0.4);
+  outline-offset: -8px;
+}
+a.banner-wrapper > div.platform-icons
+{
+  display: flex;
+  flex-direction: row;
+
+  margin: 12px 0;
+}
+a.banner-wrapper > div.platform-icons > i
+{
+  position: relative;
+  
+  text-align: center;
+  font-family: 'Font Awesome 6 Free';
+  font-style: normal;
+  
+  width: 18px;
+  
+  font-size: 18px;
+  color: darkgray;
+  font-weight: bold;
+
+  margin-right: 16px;
+}
+i.PC::before
+{
+  content: '\e4e5';
+}
+i.mobile::before
+{
+  content: '\f3cd';
+}
+i.VR::before
+{
+  content: '\f729';
+}
+i.Arcade::before
+{
+  content: '\e19b';
+}
+i.e-sports::before
+{
+  content: '\f5a2';
+}
+i.other::before
+{
+  content: '\e53d';
+}
+div.tooltip
+{
+  position: absolute;
+  top: -36px;
+  transform: translateX(calc(-50% + 18px / 2));
+
+  display: none;
+  
+  padding: 5px 10px;
+
+  font-size: 12px;
+  color: white;
+  
+  border-radius: 5px;
+
+  background: black;
+
+  width: max-content;
+  height: 18px;
+
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.4);
+}
+div.tooltip::before
+{
+  content: '';
+  
+  position: absolute;
+  top: 100%;
+  left: 50%;
+
+  margin-left: -5px;
+  
+  border: solid 5px transparent;
+  border-top: 5px solid black;
+}
+a.banner-wrapper > div.platform-icons > i:hover div.tooltip
+{
+  display: flex;
+  align-items: center;
+}
+@media (max-width: 480px)
+{
+  a.banner-wrapper > div.platform-icons > i:hover div.tooltip
+  {
+    display: none;
+  }
+}
+a.banner-wrapper > div.team-name
+{
+  color: gray;
+  font-size: 18px;
+  font-weight: bold;
+
+  text-decoration: none;
+}
+a.banner-wrapper:hover > div.team-name
+{
+  color: #646464;
+  text-decoration: underline;
+}
+@media (max-width: 480px)
+{
+  a.banner-wrapper:hover > div.team-name
+  {
+    color: gray;
+    text-decoration: none;
+  }
+}
+a.banner-wrapper > div.project-name
+{
+  color: darkgray;
+  font-size: 14px;
+}
+
+footer
+{
+  width: 100%;
+  height: 80px;
+
+  margin: 0 auto;
+  
+  background: var(--rooms-view-caption-background);
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  color: #bdbdbd;
+  font-weight: bold;
+}
+footer > div.copy-name
+{
+  font-size: 14px;
+  width: var(--rooms-view-width);
+}
+@media (max-width: 480px)
+{
+  footer > div.copy-name
+  {
+    width: 100%;
+    text-align: center;
+    font-size: 2.5vw;
+  }
+}
+
+.mobile-only
+{
+  visibility: collapse;
+  height: 0;
+}
+
+@media (max-width: 480px)
+{
+  .PC-only
+  {
+    visibility: collapse;
+    height: 0;
+  }
+  .mobile-only
+  {
+    visibility: visible;
+    height: auto;
+  }
+}

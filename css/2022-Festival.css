@@ -1,0 +1,101 @@
+:root
+{
+  --party-hat-size: 256px;
+  --party-hat-size-mobile: 40vw;
+}
+
+div.fireworks
+{
+  position: absolute;
+  top: var(--vh);
+  background: white;
+  z-index: -10;
+  width: 100%;
+  height: 100%;
+  overflow: hidden !important;
+}
+
+div.title
+{
+  font-size: 128px;
+  animation: PartyHeaderTitle 1s linear infinite;
+  transform-origin: bottom center;
+}
+
+div.title > div.party-hat
+{
+  position: absolute;
+  width: var(--party-hat-size);
+  height: var(--party-hat-size);
+  background: url(../party-hat.gif);
+  /* background: url(https://thumbs.gfycat.com/ScalyBlindArachnid.webp); */
+  background-size: var(--party-hat-size);
+  transform: rotateZ(25deg) translate(100px, -240px);
+}
+
+@media screen and (max-width: 480px)
+{
+  div.title
+  {
+    font-size: 22vw !important;
+    line-height: 17vw !important;
+  }
+  div.title > div.party-hat
+  {
+    width: var(--party-hat-size-mobile);
+    height: var(--party-hat-size-mobile);
+    background-size: var(--party-hat-size-mobile);
+    transform: rotateZ(25deg) translate(20vw, -40vw);
+  }
+}
+
+@keyframes PartyHeaderTitle
+{
+  0%
+  {
+    transform: translateY(0px);
+  }
+  37.5%
+  {
+    transform: translateY(16px) rotateZ(-1deg);
+  }
+  50%
+  {
+    transform: translateY(0px);
+  }
+
+  87.5%
+  {
+    transform: translateY(16px) rotateZ( 1deg);
+  }
+  100%
+  {
+    transform: translateY(0px);
+  }
+}
+
+div.header-column
+{
+  animation: rainbow-border-color 2s linear infinite;
+}
+::-webkit-scrollbar-track
+{
+  animation: rainbow-background 2s linear infinite;
+}
+
+@keyframes rainbow-border-color
+{
+  0%   { border-color: hsl(0turn, 90%, 65%); }
+  25%  { border-color: hsl(.25turn, 90%, 65%); }
+  50%  { border-color: hsl(.5turn, 90%, 65%); }
+  75%  { border-color: hsl(.75turn, 90%, 65%); }
+  100% { border-color: hsl(1turn, 90%, 65%); }
+}
+@keyframes rainbow-background
+{
+  0%   { background: hsl(0turn, 90%, 65%); }
+  25%  { background: hsl(.25turn, 90%, 65%); }
+  50%  { background: hsl(.5turn, 90%, 65%); }
+  75%  { background: hsl(.75turn, 90%, 65%); }
+  100% { background: hsl(1turn, 90%, 65%); }
+}

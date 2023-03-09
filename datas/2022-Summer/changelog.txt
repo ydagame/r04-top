@@ -1,0 +1,81 @@
+setdata^1^Arcadeチーム^プロジェクト名を入力^https://example.com^example.png^true^true^true^true^true^true
+setdata^2^ColorSnake^プロジェクト名を入力^^example.png^false^false^false^false^false^false
+setdata^3^mobileチーム^プロジェクト名を入力^^example.png^false^false^false^false^false^false
+setdata^4^Tower Defense^プロジェクト名を入力^^example.png^false^false^false^false^false^false
+setdata^5^3ptチーム^プロジェクト名を入力^^example.png^false^false^false^false^false^false
+setdata^6^YSチーム^プロジェクト名を入力^^example.png^false^false^false^false^false^false
+setdata^7^Fighterチーム^プロジェクト名を入力^^example.png^false^false^false^false^false^false
+setdata^8^Freeチーム^プロジェクト名を入力^^example.png^false^false^false^false^false^false
+setdata^9^ITチーム^プロジェクト名を入力^^example.png^false^false^false^false^false^false
+setdata^10^クロノスクルド^プロジェクト名を入力^^example.png^false^false^false^false^false^false
+setdata^11^チャットbotゼミ^プロジェクト名を入力^^example.png^false^false^false^false^false^false
+setdata^12^わくわく∞チーム^プロジェクト名を入力^^example.png^false^false^false^false^false^false
+setdata^13^3Dアクション製作チーム^プロジェクト名を入力^^example.png^false^false^false^false^false^false
+setdata^14^DirectX12 2D Action^プロジェクト名を入力^^example.png^false^false^false^false^false^false
+setdata^15^佐々木さん^プロジェクト名を入力^^example.png^false^false^false^false^false^false
+setdata^16^名も無きチーム^プロジェクト名を入力^^example.png^false^false^false^false^false^false
+setdata^17^シナリオゲーム制作チーム^プロジェクト名を入力^^example.png^false^false^false^false^false^false
+setdata^18^チームメロリボ^プロジェクト名を入力^^example.png^false^false^false^false^false^false
+setdata^19^GHQ^プロジェクト名を入力^^example.png^false^false^false^false^false^false
+setdata^20^Template3^プロジェクト名を入力^^example.png^false^false^false^false^false^false
+setdata^21^チームSmile_waya^プロジェクト名を入力^^example.png^false^false^false^false^false^false
+setdata^22^株式会社杉本（沼）^プロジェクト名を入力^^example.png^false^false^false^false^false^false
+setdata^23^Unreal 3D制作チーム(仮）^プロジェクト名を入力^^example.png^false^false^false^false^false^false
+setdata^24^e-sportsチーム^プロジェクト名を入力^^example.png^false^false^false^false^true^false
+[2022/07/04 - 14:01:27]: setdata^3^mobileチーム^Gyro Zombie^https://r02gm2100003.wixsite.com/physicsball^62c274276e3fd.jpg^false^true^false^false^false^false
+[2022/07/04 - 14:02:09]: setdata^3^mobileチーム^Gyro Zombie^https://r02gm2100003.wixsite.com/physicsball^3-62c274519ea5a.png^false^true^false^false^false^false
+[2022/07/05 - 15:19:12]: setdata^19^GHQ^PLANETS^https://sites.google.com/da.iwasaki.ac.jp/ghq/ホーム^19-62c3d7e0dfb9a.png^true^false^false^false^false^false
+[2022/07/06 - 13:27:14]: setdata^24^e-sportsチーム^e-sports^https://r02gm2100228.wixsite.com/website^24-62c50f2231422.png^false^false^false^false^true^false
+[2022/07/06 - 17:27:06]: setdata^20^Template3^ROLLING BALLS^https://sites.google.com/da.iwasaki.ac.jp/202211-1234/ホームだよ^20-62c5475a215cf.png^true^false^false^false^false^false
+[2022/07/07 - 08:52:37]: setdata^16^名も無きチーム^Fox Action^https://sites.google.com/da.iwasaki.ac.jp/namonaki^16-62c6204505f7c.png^true^false^false^false^false^false
+[2022/07/07 - 09:45:27]: setdata^18^チームメロリボ^メロディリボン^https://sites.google.com/da.iwasaki.ac.jp/melribo/home^18-62c62ca75b7a8.png^false^true^false^false^false^false
+[2022/07/08 - 10:01:10]: setdata^8^Freeチーム^Freeのおもちゃ箱^https://r02gm2100267.wixsite.com/freeteam^8-62c781d650dfa.jpg^true^false^false^false^false^false
+[2022/07/08 - 10:12:57]: setdata^8^Freeチーム^Freeのおもちゃ箱^https://r02gm2100267.wixsite.com/freeteam^8-62c784996b948.jpg^true^false^false^false^false^false
+[2022/07/08 - 10:32:31]: setdata^2^ColorSnake^ColorSnake^https://r02gm2100123.wixsite.com/color-snake-team^2-62c7892f8a1b0.png^true^false^false^false^false^false
+[2022/07/08 - 16:34:19]: setdata^12^わくわく∞チーム^わくわく文房具レース^https://sites.google.com/da.iwasaki.ac.jp/wkwkinf/わくわくホームだよ^12-62c7ddfb160de.png^true^false^false^false^false^false
+[2022/07/11 - 08:40:24]: setdata^13^3Dアクション製作チーム^3Dアクション制作^https://sites.google.com/da.iwasaki.ac.jp/3dgame/ホーム?authuser=1^example.png^true^false^false^false^false^false
+[2022/07/11 - 10:55:19]: setdata^23^Unreal 3D制作チーム(仮）^HIDE&amp;SEEK制作プロジェクト^https://sites.google.com/da.iwasaki.ac.jp/unreal-3d/ホーム^23-62cb83077067e.png^true^false^false^false^false^false
+[2022/07/11 - 11:35:23]: setdata^6^YSチーム^Solar_Gladiators_2D^https://r02gm2100226.wixsite.com/ysteam^example.png^true^false^false^false^false^false
+[2022/07/11 - 12:39:19]: setdata^21^チームSmile_waya^Smile_Party^https://sites.google.com/da.iwasaki.ac.jp/team-smile-waya/Projects/Diary/July-MyProjectsPooper^21-62cb9b679c5b5.png^true^true^false^false^false^false
+[2022/07/11 - 13:18:40]: setdata^11^チャットbotゼミ^チャットボット^https://r02gm2100086.wixsite.com/chatbot^example.png^false^false^false^false^false^true
+[2022/07/11 - 13:32:41]: setdata^15^佐々木さん^呪いの廃校^https://sites.google.com/d/15xWkL6H-rJf3JCjSUjLdp0CVotaqQ_cX/p/1Gn5NYrym3w_ootrwYNQ-oNETgy4K_zyc/edit^15-62cba7e97baba.png^true^false^false^false^false^false
+[2022/07/11 - 13:32:49]: setdata^11^チャットbotゼミ^チャットbot^https://r02gm2100086.wixsite.com/chatbot^example.png^false^false^false^false^false^true
+[2022/07/11 - 13:46:43]: setdata^15^佐々木さん^呪いの廃校^https://sites.google.com/da.iwasaki.ac.jp/sasakisan/ホーム^15-62cba7e97baba.png^true^false^false^false^false^false
+[2022/07/11 - 14:04:05]: setdata^11^チャットbotゼミ^チャットbot^https://r02gm2100086.wixsite.com/chatbot^11-62cbaf45bf0e9.jpg^false^false^false^false^false^true
+[2022/07/11 - 15:19:23]: setdata^6^YSチーム^Solar_Gladiators_2D^https://r02gm2100226.wixsite.com/ysteam^6-62cbc0ebe0d83.png^true^false^false^false^false^false
+[2022/07/11 - 15:22:26]: setdata^9^ITチーム^PoPTyping^https://r02gm2100133.wixsite.com/poptyping^9-62cbc1a2b2218.png^true^false^false^false^false^true
+[2022/07/11 - 15:25:04]: setdata^22^株式会社杉本（沼）^null^https://sites.google.com/da.iwasaki.ac.jp/team-smile-waya/Projects/Diary/July-MyProjectsPooper^22-62cbc240972f7.jpg^true^false^false^false^false^true
+[2022/07/11 - 15:26:22]: setdata^17^シナリオゲーム制作チーム^ANEMONE^https://sites.google.com/da.iwasaki.ac.jp/sinario/制作ゲーム紹介^17-62cbc28ee10c6.png^true^false^false^false^false^false
+[2022/07/11 - 15:27:28]: setdata^17^シナリオゲーム制作チーム^ANEMONE^https://sites.google.com/da.iwasaki.ac.jp/sinario/ホーム^17-62cbc28ee10c6.png^true^false^false^false^false^false
+[2022/07/11 - 15:46:45]: setdata^14^DirectX12 2D Action^DirectX12 2D Action^https://sites.google.com/da.iwasaki.ac.jp/directx12-2d-action/^14-62cbc7559a1a8.png^true^false^false^false^false^false
+[2022/07/12 - 00:18:31]: setdata^1^Arcadeチーム^アーケードガンシューティング^https://ydagame.shopipi.app/t/Arcadeチーム/^1-62cc3f47535db.png^false^false^false^true^false^false
+[2022/07/12 - 09:05:08]: setdata^17^シナリオゲーム制作チーム^ANEMONE^https://sites.google.com/da.iwasaki.ac.jp/sinario/ホーム^17-62cbc28ee10c6.png^true^false^false^false^false^false
+[2022/07/12 - 09:20:04]: setdata^13^3Dアクション製作チーム^3Dアクション制作^https://sites.google.com/da.iwasaki.ac.jp/3dgame/ホーム?authuser=1^13-62ccbe3485814.png^true^false^false^false^false^false
+[2022/07/12 - 11:33:36]: setdata^10^クロノスクルド^クロノスクルド^https://kuromaru.net/ChronoSculd/home.html^example.png^true^false^false^false^false^false
+[2022/07/12 - 11:42:26]: setdata^4^Tower Defense^Tower Defense制作^https://r02gm2100118.wixsite.com/website-1^4-62ccdf9222c4b.png^false^true^false^false^false^false
+[2022/07/12 - 14:10:01]: setdata^23^Unreal 3D制作チーム(仮）^HIDE&amp;SEEK制作プロジェクト^https://sites.google.com/da.iwasaki.ac.jp/unreal-3d/ホーム^23-62cb83077067e.png^true^false^false^false^false^false
+[2022/07/12 - 20:19:58]: setdata^7^Fighterチーム^Fighter.UE5^https://r02gm2100081.wixsite.com/fighter^7-62cd58dea9c19.png^true^false^false^false^false^false
+[2022/07/13 - 01:42:16]: setdata^5^3ptチーム^ Billiards^https://r02gm2100211.wixsite.com/bili^5-62cda4686c633.png^true^true^false^false^false^false
+[2022/07/13 - 09:09:51]: setdata^13^3Dアクション製作チーム^3Dアクション制作^https://sites.google.com/da.iwasaki.ac.jp/3dgame/ホーム?authuser=1^13-62ccbe3485814.png^true^false^false^false^false^false
+[2022/07/13 - 09:25:51]: setdata^3^mobileチーム^Gyro Zombie^https://r02gm2100003.wixsite.com/physicsball^3-62ce110f34ac7.png^false^true^false^false^false^false
+[2022/07/13 - 10:26:04]: setdata^13^3Dアクション製作チーム^3Dアクション制作^https://sites.google.com/da.iwasaki.ac.jp/3dgame/ホーム?authuser=1^13-62ccbe3485814.png^true^false^false^false^false^false
+[2022/07/13 - 10:48:32]: setdata^13^3Dアクション製作チーム^3Dアクション制作^https://sites.google.com/da.iwasaki.ac.jp/3dgame/ホーム?authuser=1^13-62ccbe3485814.png^true^false^false^false^false^false
+[2022/07/13 - 11:25:04]: setdata^18^チームメロリボ^メロディリボン^https://sites.google.com/da.iwasaki.ac.jp/melribo/^18-62c62ca75b7a8.png^false^true^false^false^false^false
+[2022/07/13 - 11:45:39]: setdata^13^3Dアクション製作チーム^3Dアクション制作^https://sites.google.com/da.iwasaki.ac.jp/3dgame/ホーム?authuser=1^13-62ccbe3485814.png^true^false^false^false^false^false
+[2022/07/13 - 14:23:41]: setdata^13^3Dアクション製作チーム^PLANET ESCAPE^https://sites.google.com/da.iwasaki.ac.jp/3dgame/ホーム?authuser=1^13-62ccbe3485814.png^true^false^false^false^false^false
+[2022/07/13 - 14:23:50]: setdata^13^3Dアクション製作チーム^PLANET ESCAPE^https://sites.google.com/da.iwasaki.ac.jp/3dgame/ホーム?authuser=1^13-62ccbe3485814.png^true^false^false^false^false^false
+[2022/07/13 - 15:30:34]: setdata^18^チームメロリボ^メロディリボン^https://sites.google.com/da.iwasaki.ac.jp/melribo/^18-62ce668a8d1a1.jpg^false^true^false^false^false^false
+[2022/07/13 - 19:48:08]: setdata^21^チームSmile_waya^Smile_Party^https://sites.google.com/da.iwasaki.ac.jp/team-smile-waya/Projects/Diary/July-MyProjects^21-62cb9b679c5b5.png^true^true^false^false^false^false
+[2022/07/13 - 19:49:56]: setdata^22^株式会社杉本（沼）^null^https://sites.google.com/da.iwasaki.ac.jp/team-smile-waya/Projects/Diary/July-MyProjects^22-62cbc240972f7.jpg^true^false^false^false^false^true
+[2022/07/14 - 08:48:19]: setdata^12^わくわく∞チーム^わくわく文房具レース^https://bit.ly/3RzFp4O^12-62c7ddfb160de.png^true^false^false^false^false^false
+[2022/07/14 - 09:14:12]: setdata^1^Arcadeチーム^アーケードガンシューティング^https://ydagame.shopipi.app/t/Arcadeチーム/^1-62cf5fd41d796.png^false^false^false^true^false^false
+[2022/07/14 - 09:35:27]: setdata^18^チームメロリボ^メロディリボン^https://sites.google.com/da.iwasaki.ac.jp/melribo/^18-62ce668a8d1a1.jpg^false^true^false^false^false^false
+[2022/07/14 - 09:44:39]: setdata^10^クロノスクルド^クロノスクルド^https://kuromaru.net/ChronoSculd/home.html^10-62cf66f77d00e.jpg^true^false^false^false^false^false
+[2022/07/14 - 09:44:52]: setdata^18^チームメロリボ^メロディリボン^https://sites.google.com/da.iwasaki.ac.jp/melribo/ホーム?authuser=0^18-62ce668a8d1a1.jpg^false^true^false^false^false^false
+[2022/07/14 - 09:46:53]: setdata^18^チームメロリボ^メロディリボン^https://sites.google.com/da.iwasaki.ac.jp/melribo/ホーム^18-62ce668a8d1a1.jpg^false^true^false^false^false^false
+[2022/07/14 - 09:53:56]: setdata^18^チームメロリボ^メロディリボン^https://sites.google.com/da.iwasaki.ac.jp/melribo/ホーム^18-62ce668a8d1a1.jpg^false^true^false^false^false^false
+[2022/07/14 - 12:27:37]: setdata^1^Arcadeチーム^アーケードガンシューティング^https://ydagame.shopipi.app/t/Arcadeチーム/^1-62cf8d29b523e.png^false^false^false^true^false^false
+[2022/07/14 - 12:28:36]: setdata^1^Arcadeチーム^アーケードガンシューティング^https://ydagame.shopipi.app/t/Arcadeチーム/^1-62cf8d6420c7a.png^false^false^false^true^false^false
+[2022/07/14 - 13:03:48]: setdata^18^チームメロリボ^メロディリボン^https://sites.google.com/da.iwasaki.ac.jp/melribo/プロジェクト概要^18-62ce668a8d1a1.jpg^false^true^false^false^false^false
+[2022/07/14 - 13:43:28]: setdata^18^チームメロリボ^メロディリボン^https://sites.google.com/da.iwasaki.ac.jp/melribo/ホーム^18-62ce668a8d1a1.jpg^false^true^false^false^false^false
+[2022/08/24 - 11:59:21]: setdata^12^わくわく∞チーム^わくわく文房具レース^https://sites.google.com/da.iwasaki.ac.jp/wkwkinf/わくわく文房具レース^12-62c7ddfb160de.png^true^false^false^false^false^false

@@ -1,0 +1,317 @@
+body
+{
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.caption
+{
+  margin: 120px auto 0 auto;
+  width: 94%;
+  height: 200px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.caption > .caption-bar
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  position: relative;
+  width: 100%;
+
+  padding: 32px 0;
+}
+.caption .caption-bar > .grade
+{
+  padding-left: 20px;
+  font-size: 32px;
+  color: #212121;
+  font-weight: bold;
+}
+.caption .platform-desc
+{
+  padding-right: 20px;
+
+  position: absolute;
+  right: 0;
+
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+
+  width: fit-content;
+}
+.caption .platform-info
+{
+  position: relative;
+
+  margin: 2px 0 2px 32px;
+  
+  font-size: 18px;
+  color: darkgray;
+  font-weight: bold;
+}
+i
+{
+  text-align: center;
+  font-family: 'Font Awesome 6 Free';
+  font-style: normal;
+}
+i.PC::before
+{
+  content: '\e4e5';
+}
+i.mobile::before
+{
+  content: '\f3cd';
+}
+i.VR::before
+{
+  content: '\f729';
+}
+i.Arcade::before
+{
+  content: '\f70c';
+}
+i.e-sports::before
+{
+  content: '\e19b';
+}
+i.other::before
+{
+  content: '\e53d';
+}
+.caption .platform-info > i,
+.caption .platform-info > i::before
+{
+  width: 24px;
+}
+.caption > .caption-line
+{
+  background: linear-gradient(to right, var(--banner-caption-line), transparent 40%);
+  width: calc(100% - 40px);
+  height: 4px;
+  border-radius: 2px;
+  margin: 0 auto;
+}
+@media screen and (max-width: 820px)
+{
+  .caption > .caption-bar
+  {
+    flex-direction: column;
+  }
+  .caption .caption-bar > .grade
+  {
+    margin: 20px auto;
+    padding: 0;
+  }
+  .caption .platform-desc
+  {
+    grid-template-columns: repeat(2, auto);
+    position: relative;
+    margin: 0 auto;
+  }
+  .caption .platform-info
+  {
+    font-size: 4vw;
+  }
+  .caption > .caption-line
+  {
+    display: none;
+  }
+}
+
+/*==================================
+              バナー格納
+==================================*/
+.banner-container
+{
+  margin: 0 auto;
+  width: 1400px;
+  width: 94%;
+  display: grid;
+
+  grid-template-columns: repeat(4, 1fr);
+}
+.banner-container.large
+{
+  grid-template-columns: repeat(2, 1fr);
+}
+.banner-container.festival
+{
+  width: 1400px;
+  grid-template-columns: repeat(5, 1fr) !important;
+}
+@media screen and (max-width: 480px)
+{
+  .banner-container
+  {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+/*==================================
+              バナー外側
+==================================*/
+.banner-wrapper
+{
+  aspect-ratio: 4 / 3.3;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  z-index: 1;
+
+  margin: 5px 10px;
+  padding: 10px 10px 0;
+}
+
+/*==================================
+            バナー画像外側
+==================================*/
+.banner-img-wrapper
+{
+  aspect-ratio: 4 / 3;
+  position: relative;
+  transition-duration: 0.3s;
+}
+
+/*==================================
+              バナー画像
+==================================*/
+.banner-img
+{
+  background-size: cover !important;
+  background-position: center center !important;
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.4);
+}
+@media screen and (min-width: 481px)
+{
+  .banner-img-wrapper:hover
+  {
+    transform: translateY(-3%) scale(1.05);
+  }
+  .banner-container.festival .banner-img-wrapper:hover
+  {
+    transition-duration: 0.1s;
+    transform: translateY(1%);
+  }
+}
+
+/*==================================
+            バナー画像フィルター
+==================================*/
+.banner-img-overlay
+{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  inset: 0;
+  background: transparent;
+  background: linear-gradient(transparent 25%, rgba(0,0,0,0.5) 100%);
+  transition-duration: 0.3s;
+  opacity: 0;
+  border-radius: 8px;
+}
+.banner-img-overlay:hover
+{
+  opacity: 1;
+}
+/*==================================
+            ウェブサイトURL
+==================================*/
+.banner-img-overlay > .site-url
+{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 0;
+  max-width: 50%;
+  background: white;
+  color: black;
+
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  border-radius: 4px;
+  padding: 2px 2px 2px 8px;
+
+  color: darkslateblue;
+  font-size: 14px;
+  font-weight: bold;
+
+  transition-duration: 0.3s;
+}
+/*==================================
+            プロジェクト名
+==================================*/
+.banner-img-overlay > .project-name
+{
+  font-size: 18px;
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+  color: white;
+  font-weight: bold;
+
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+
+  width: 90%;
+}
+@media screen and (max-width: 480px)
+{
+  .banner-img-overlay:hover
+  {
+    opacity: 0;
+  }
+}
+
+/*==================================
+              情報要素
+==================================*/
+.info-container
+{
+  padding: 4px 0 4px 0px;
+  font-size: 100%;
+  font-weight: bold;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+.info-container > .team-name,
+.info-container > .platform-icons > i
+{
+  font-size: 16px;
+}
+.banner-container.festival .info-container > .team-name
+{
+  color: white;
+}
+
+/*==================================
+        プラットフォームアイコン
+==================================*/
+.info-container > .platform-icons
+{
+  position: absolute;
+  right: 0;
+  color: darkgray;
+}
+.info-container > .platform-icons > i:not(:first-child)
+{
+  margin-left: 10px;
+}
+.banner-container.festival .info-container > .platform-icons
+{
+  color: #EEEEEE;
+}

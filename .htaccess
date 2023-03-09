@@ -1,0 +1,31 @@
+RewriteEngine on
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME}\.html -f
+RewriteRule ^(.*)$ $1.html [L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php [L]
+
+<filesMatch "\.(html|php)$">
+  Header set Pragma private
+  Header set Cache-Control private
+  Header set Server apache
+</filesMatch>
+
+RewriteRule ^2022(.*)/(.*)$     https://ydagame.shopipi.app/2022$1 [R,NC]
+RewriteRule ^2022(.*)(::early)$ https://ydagame.shopipi.app/2022$1?early-access=true [R,NC]
+RewriteRule ^2022(.*)(::log)$   https://ydagame.shopipi.app/2022$1?access-log=true [R,NC]
+RewriteRule ^2022(.*)$          2022-2023-portal.php?%{QUERY_STRING} [L,NC]
+
+RewriteRule ^2023(.*)/(.*)$     https://ydagame.shopipi.app/2023$1 [R,NC]
+RewriteRule ^2023(.*)(::early)$ https://ydagame.shopipi.app/2023$1?early-access=true [R,NC]
+RewriteRule ^2023(.*)(::log)$   https://ydagame.shopipi.app/2023$1?access-log=true [R,NC]
+RewriteRule ^2023(.*)$          2022-2023-portal.php?%{QUERY_STRING} [L,NC]
+
+ErrorDocument 403 https://ydagame.shopipi.app/2023
+ErrorDocument 404 https://ydagame.shopipi.app/2023
+ErrorDocument 500 https://ydagame.shopipi.app/2023
+
+Options -Indexes
