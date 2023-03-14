@@ -7,7 +7,7 @@ require 'data-manager.php';
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>登録情報チェック</title>
 </head>
 
 <style>
@@ -90,7 +90,7 @@ tr.warn
       }
       ?>
       <?php
-      for ($i = 1; $i <= 24; $i++)
+      for ($i = 1; $i <= 28; $i++)
       {
         print_tr($i);
       }
